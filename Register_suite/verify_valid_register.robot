@@ -1,8 +1,10 @@
 *** Settings ***
 Documentation       This suite will create a new account
 Resource       ../Resource/commonfunctionality.resource
+
 Test Setup      Link Browser
 Test Teardown   Close Browser
+
 Test Template    verify valid register
 
 *** Test Cases ***

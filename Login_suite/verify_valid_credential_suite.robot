@@ -3,6 +3,8 @@ Documentation           This suite will handle valid credentials
 Resource  ../Resource/commonfunctionality.resource
 
 Test Setup   Link Browser
+Test Teardown   Close Browser
+
 Test Template      Valid Credential Template
 
 *** Test Cases ***
