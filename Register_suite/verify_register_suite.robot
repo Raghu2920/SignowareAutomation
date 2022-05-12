@@ -13,7 +13,7 @@ TC1     Ram      R       ram10@gmail.com     Ram@10
 *** Keywords ***
 verify valid register
     [Arguments]   ${username}   ${lastname}    ${email_id}   ${password}
-     Click Element    link=Sign In
+     Click Element    xpath=//a[contains(text(),'Sign In')]
      Click Element    link=Create an Account
      Input Text    id=firstname   ${username}
      Input Text    id=lastname    ${lastname}
